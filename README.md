@@ -5,21 +5,73 @@ Home: https://github.com/nlmixrdevelopment/lotri
 
 Package license: GPL-2.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lotri-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides a simple mechanism to specify a symmetric block diagonal matrices (often used for covariance matrices).  This is based on the domain specific language implemented in 'nlmixr' but expanded to create matrices in R generally instead of specifying parts of matrices to estimate.
-
-
 
 Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table>
+    
+  <tr>
+    <td>Azure</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9679&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-lotri-feedstock?branchName=master">
-      </a>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9679&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-lotri-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_64_r_base3.6target_platformlinux-64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9679&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-lotri-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base3.6target_platformlinux-64" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_r_base4.0target_platformlinux-64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9679&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-lotri-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base4.0target_platformlinux-64" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base3.6target_platformosx-64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9679&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-lotri-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base3.6target_platformosx-64" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.0target_platformosx-64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9679&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-lotri-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base4.0target_platformosx-64" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base3.6target_platformwin-64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9679&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-lotri-feedstock?branchName=master&jobName=win&configuration=win_64_r_base3.6target_platformwin-64" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base4.0target_platformwin-64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9679&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-lotri-feedstock?branchName=master&jobName=win&configuration=win_64_r_base4.0target_platformwin-64" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
     </td>
   </tr>
 </table>
