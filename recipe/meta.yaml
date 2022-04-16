@@ -28,11 +28,14 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-crayon
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
+    - r-crayon
 
 test:
   commands:
@@ -41,7 +44,7 @@ test:
 
 about:
   home: https://github.com/nlmixrdevelopment/lotri
-  license: GPL-2.0-only
+  license: GPL-2.0-or-later
   summary: Provides a simple mechanism to specify a symmetric block diagonal matrices (often used for covariance matrices).  This is based on the domain specific language implemented in 'nlmixr' but expanded to create matrices in R generally instead of specifying parts of matrices to estimate.
   license_family: GPL2
   license_file:
