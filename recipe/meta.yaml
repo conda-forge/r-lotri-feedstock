@@ -1,4 +1,4 @@
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/lotri_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/lotri/lotri_{{ version }}.tar.gz
-  sha256: a46db3548238147f32b671160ade521f5555f29b11dc61c7b81b2e0f359c5806
+  sha256: 9a8e17d549e9d3ff9fdc246788c7569edae8e562bf7e9eeec79962fcbd2d26d1
 
 build:
   merge_build_host: true  # [win]
