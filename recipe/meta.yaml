@@ -31,9 +31,15 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-checkmate
+    - r-cpp11
+    - r-cpp11armadillo
     - r-crayon
   run:
     - r-base
+    - r-checkmate
+    - r-cpp11
+    - r-cpp11armadillo
     - r-crayon
 
 test:
