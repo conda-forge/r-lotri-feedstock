@@ -1,4 +1,4 @@
-{% set version = "0.4.3" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/lotri_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/lotri/lotri_{{ version }}.tar.gz
-  sha256: 744b080973df0ce286705de77c8fc0fd2c7367a13c7f4678b042698562a344e4
+  sha256: 9dc4571d3b06917809c5bb7912500a8c10dfc64b7f38a5557d88399a5ff4be96
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -31,9 +31,15 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-checkmate
+    - r-cpp11
+    - r-cpp11armadillo
     - r-crayon
   run:
     - r-base
+    - r-checkmate
+    - r-cpp11
+    - r-cpp11armadillo
     - r-crayon
 
 test:
